@@ -1,0 +1,30 @@
+<ion-content padding>
+	<h1 style="text-align: center;">Sign Up</h1>
+	<form text-left class="form-wrap" (ngSubmit)="loginUser()">
+		<ion-list class="form-inputs">
+
+			<ion-item style="position: fixed; top: 20%;">
+				<ion-label class="label1">UserName:</ion-label>
+				<ion-input class="input1" type="text" placeholder="Username" [(ngModel)]="uname"
+					[ngModelOptions]="{standalone: true}">
+				</ion-input>
+			</ion-item>
+
+			<ion-item style="position: fixed; top: 30%;">
+				<ion-label class="label2">Password :</ion-label>
+				<ion-input class="input2" type="password" placeholder="Password" [(ngModel)]="upass"
+					[ngModelOptions]="{standalone: true}">
+				</ion-input>
+			</ion-item>
+
+		</ion-list>
+		<button style="bottom: 40px;" type="submit" ion-button block color="primary">LOGIN</button>
+		<div style="position: relative; text-align: center">
+			<p style="position: fixed; bottom: 0; width:100%;">click here for
+				<u (click)="navigate1()" style="color: green;">Sign in</u>
+			</p>
+		</div>
+
+	</form>
+
+</ion-content>

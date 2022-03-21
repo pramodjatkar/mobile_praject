@@ -1,0 +1,44 @@
+.content {
+    background: #e8effb;
+}
+.label1{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+.input1{
+    background-color: whitesmoke;
+    position: relative;
+    width: 50%;
+    left: 20%;
+    border-radius: 5px;
+}
+
+.label2{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+
+.input2{
+    background-color: whitesmoke;
+    position: relative;
+    width: 50%;
+    left: 20%;
+    border-radius: 5px;
+}
+
+
+.button{
+    position: fixed;
+    bottom: 80px;
+    width: 40%;
+    left: 30%;
+}
+
+
+

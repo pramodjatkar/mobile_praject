@@ -1,0 +1,23 @@
+.content {
+    background: #e8effb;
+}
+.avt{
+    position:absolute;
+    left:50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    background-color: whitesmoke;
+    width: 150px;
+    height: 150px;
+	border-radius: 50%;
+	top: 50px;
+}
+.avt1{
+    background-color: gray;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 100px;
+    top: -30px;
+	border-radius: 50%;
+}
